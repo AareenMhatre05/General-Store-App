@@ -1,4 +1,4 @@
-# Kavita General Stores
+# General Stores App
 
 Monorepo for the customer-facing and staff-facing apps, plus the shared
 Supabase backend.
