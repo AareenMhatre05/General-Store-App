@@ -13,21 +13,25 @@ policies deciding who may read what.
 
 ## Screenshots
 
-| Shop | Product | Cart & checkout |
+**Customer app**
+
+| Shop | Product | Cart |
 |:---:|:---:|:---:|
 | ![Shop](docs/screenshots/customer-home.png) | ![Product](docs/screenshots/customer-product.png) | ![Cart](docs/screenshots/customer-cart.png) |
 
-| Live order tracking | Order history | Chat with the shop |
+| Checkout | Order history | Chat with the shop |
 |:---:|:---:|:---:|
-| ![Tracking](docs/screenshots/customer-tracking.png) | ![Orders](docs/screenshots/customer-orders.png) | ![Chat](docs/screenshots/customer-chat.png) |
+| ![Checkout](docs/screenshots/customer-checkout.png) | ![Orders](docs/screenshots/customer-orders.png) | ![Chat](docs/screenshots/customer-chat.png) |
 
-| Staff dashboard | Fulfilment queue | Sales & profit |
-|:---:|:---:|:---:|
-| ![Dashboard](docs/screenshots/staff-dashboard.png) | ![Orders](docs/screenshots/staff-orders.png) | ![Sales](docs/screenshots/staff-sales.png) |
+**Staff app**
 
-| Inventory | Order detail & assignment | Delivery partner |
-|:---:|:---:|:---:|
-| ![Inventory](docs/screenshots/staff-inventory.png) | ![Order detail](docs/screenshots/staff-order-detail.png) | ![Deliveries](docs/screenshots/delivery-jobs.png) |
+| Dashboard | Fulfilment queue |
+|:---:|:---:|
+| ![Dashboard](docs/screenshots/staff-dashboard.png) | ![Orders](docs/screenshots/staff-orders.png) |
+
+| Sales & profit | Inventory |
+|:---:|:---:|
+| ![Sales](docs/screenshots/staff-sales.png) | ![Inventory](docs/screenshots/staff-inventory.png) |
 
 ---
 
