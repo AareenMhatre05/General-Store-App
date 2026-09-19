@@ -144,29 +144,7 @@ supabase/functions    Deno edge functions
 Design notes live in [`Decisions.md`](Decisions.md) — every significant choice, why it was made, and
 what broke when it was made differently. [`Architecture.md`](Architecture.md) is the system map and
 [`Flow.md`](Flow.md) traces what happens end to end when someone places an order.
-
-## Running it
-
-```bash
-cd apps/customer_app && flutter pub get
-cd ../staff_app && flutter pub get
-```
-
-Point it at your own Supabase project:
-
-```bash
-supabase link --project-ref <your-project-ref>
-supabase db push          # applies all migrations
-supabase functions deploy route
-supabase secrets set ORS_API_KEY=<openrouteservice key>
-```
-
-Then update `packages/shared/lib/src/supabase/supabase_config.dart` with your project URL and anon
-key, and build:
-
-```bash
-flutter build apk --release --split-per-abi
-```
+[`RELEASE.md`](RELEASE.md) is the configuration checklist for standing the whole thing up.
 
 ## Status
 
