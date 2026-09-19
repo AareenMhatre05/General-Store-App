@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Native launch background. Android picks values-night/ when the
+         phone is in dark mode, so the launch screen matches the system
+         theme. It cannot follow the in-app Appearance choice, because
+         that setting lives in Flutter and is not loaded yet when this
+         window is drawn; matching the system is the closest available
+         answer, and better than always flashing navy.
+         (A double hyphen is illegal inside an XML comment.) -->
+    <color name="brand_background">#F8F9FF</color>
+</resources>

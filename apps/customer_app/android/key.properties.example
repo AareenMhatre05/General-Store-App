@@ -1,0 +1,15 @@
+# Copy to key.properties (which is gitignored) and fill in with your own
+# keystore before building a Play Store release.
+#
+# Create the keystore once, and never lose it -- Play Store updates must
+# be signed with the same key, and there is no way to recover it:
+#
+#   keytool -genkey -v -keystore %USERPROFILE%\kgs-upload-key.jks \
+#     -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# Back up the .jks file and these passwords somewhere safe and offline.
+
+storePassword=your-store-password
+keyPassword=your-key-password
+keyAlias=upload
+storeFile=C:\\Users\\you\\kgs-upload-key.jks

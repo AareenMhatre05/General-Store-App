@@ -1,0 +1,38 @@
+name: shared
+description: Shared data models, Supabase client setup, and theme for Kavita General Stores apps.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.6
+  equatable: ^2.0.5
+  intl: ^0.19.0
+  # Referenced directly for ClientException when classifying network
+  # failures; it arrives transitively via supabase_flutter, but relying
+  # on a transitive dependency is fragile.
+  http: ^1.2.0
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  # The delivery map is shared by both apps, so its dependencies live
+  # here rather than being declared twice. OpenStreetMap tiles: no API
+  # key and no billing account, unlike google_maps_flutter.
+  flutter_map: ^8.1.0
+  latlong2: ^0.9.1
+  go_router: ^14.2.0
+  geolocator: ^13.0.1
+  # Appearance choice lives on the device, not the account.
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # This package has no assets/UI of its own beyond theme data.

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The logo was drawn on white; keeping the icon background white
+         means the mark reads the same way on the launcher as it does
+         everywhere else. -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>
